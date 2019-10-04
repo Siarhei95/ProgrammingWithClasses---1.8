@@ -141,7 +141,7 @@ class Customer {
     }
 
     public String toString() {
-        return String.format("ID: %d\t name: %s\t name2: %s\t name3 %s \t from: %s\t credit card %d\t bank number %d",
+        return String.format("ID: %d\t surname: %s\t name: %s\t name3 %s \t from: %s\t credit card %d\t bank number %d",
                 id, surname, name, name3, address, creditCardId, bankNumberCard);
     }
 }
